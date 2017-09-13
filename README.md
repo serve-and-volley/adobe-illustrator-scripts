@@ -27,4 +27,4 @@ Renders labels for the sub-polygons, for example:
 ## `circlePackingPaths.js` and `circlePackingGeometries.js`
 Renders circle packing in the sub-polygons and the labels, for example:
 
-<img width="300" src="https://user-images.githubusercontent.com/532545/30355632-6b44c2c8-97e9-11e7-9cb7-fb6a5a99325a.png" />
+<img width="300" src="https://user-images.githubusercontent.com/532545/30355793-5b6f81e8-97ea-11e7-8bd4-90403d557447.png" />
