@@ -22,7 +22,7 @@ Takes a polygon and divides it into sub-polygons, for example:
 ## `subPolygonLabels.js`
 Renders labels for the sub-polygons, for example:
 
-<img width="300" src="https://user-images.githubusercontent.com/532545/30355558-f72033dc-97e8-11e7-96c4-bfe0a6f24bae.png" />
+<img width="300" src="https://user-images.githubusercontent.com/532545/30355955-51cec67a-97eb-11e7-873f-a59953dda387.png" />
 
 ## `circlePackingPaths.js` and `circlePackingGeometries.js`
 Renders circle packing in the sub-polygons and the labels, for example:
