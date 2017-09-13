@@ -22,8 +22,8 @@
 *   N. interpolygonTwoLines(P1, m1, P2, m2)      *
 *   O. drawLabel(x, y)                           *
 *   P. appendSegmentsArray(P0, P1, P2, P3)       *
-*   Q. createSegmentsArray(subPolygon)                  *
-*   R. labelPosition(subPolygon)                        *
+*   Q. createSegmentsArray(subPolygon)           *
+*   R. labelPosition(subPolygon)                 *
 *                                                *
 * * * * * * * * * * * * * * * * * * * * * * * * */ 
 
@@ -478,22 +478,22 @@ function labelPosition(subPolygon) {
     }     
 }
 
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-*                                                                                                *
-*   MAIN ROUTINE                                                                                 *
-*                                                                                                *
-*   1. Initial set up                                                                            *
-*   2. Define "subPolygons" layer as an array of subPolygon path objects                                       *
-*   3. Aggregate the subPolygon distances to calculate the subPolygon size constants to determine text size    *
-*   4. Using the subPolygon size constants, find the subPolygon label coordinates and draw the subPolygon label:      *
-*      R. labelPosition() is the main local function:                                            *
-*          R1. Create "segments" array                                                           *
-*          R2. Create "filtered" array as a subset of the "segments" array                       *
-*          R3. Order "filtered" array by distance of line segment midpoint to focal point        *
-*          R4. Case 1: If subPolygon is a "big" subPolygon instead of a "small" subPolygon                            *
-*          R5. Case 2: If subPolygon is not a "big" subPolygon, but instead a "small" subPolygon                      *
-*                                                                                                *
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*                                                                                                                      *
+*   MAIN ROUTINE                                                                                                       *
+*                                                                                                                      *
+*   1. Initial set up                                                                                                  *
+*   2. Define "subPolygons" layer as an array of sub-polygon path objects                                              *
+*   3. Aggregate the sub-polygon distances to calculate the sub-polygon size constants to determine text size          *
+*   4. Using the sub-polygon size constants, find the sub-polygon label coordinates and draw the sub-polygon label:    *
+*      R. labelPosition() is the main local function:                                                                  *
+*          R1. Create "segments" array                                                                                 *
+*          R2. Create "filtered" array as a subset of the "segments" array                                             *
+*          R3. Order "filtered" array by distance of line segment midpoint to focal point                              *
+*          R4. Case 1: If sub-polygon is a "big" sub-polygon instead of a "small" sub-polygon                          *
+*          R5. Case 2: If sub-polygon is not a "big" sub-polygon, but instead a "small" sub-polygon                    *
+*                                                                                                                      *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 // 1. Initial set up
 var doc = app.activeDocument;
