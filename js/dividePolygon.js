@@ -158,17 +158,17 @@ function appendSegmentsArray(array, P0, P1, P2, P3) {
 *   MAIN ROUTINE                                                                                   *
 *                                                                                                  *
 *   1. Initial set up                                                                              *
-*   2. Create arrays for alphabtical subPolygon name ranges                                               *
+*   2. Create arrays for alphabtical subPolygon name ranges                                        *
 *   3. Collect polygon polygon coordinates                                                         *
 *   4. Collect polygon polygon line segment data, and determine "front" and "back" segments        *
 *   5. Remove extra points                                                                         *
-*   6. Set up for subPolygon drawing                                                                      *
-*   7. Define the "segments" multidimensional array consisting of the subPolygon polygon line segments    *
-*   8. Define the "points" array consisting of anchor points of the subPolygon polygon                    *
-*   9. Create the first subPolygon polygon side                                                           *
-*   10. Create the "middle" subPolygon polygon sides                                                      *
-*   11. Create the last subPolygon polygon side                                                           *
-*   12. Draw the subPolygon polygon                                                                       *
+*   6. Set up for sub-polygon drawing                                                              *
+*   7. Define the "segments" multidimensional array consisting of the sub-polygon line segments    *
+*   8. Define the "points" array consisting of anchor points of the sub-polygon                    *
+*   9. Create the first sub-polygon side                                                           *
+*   10. Create the "middle" sub-polygon sides                                                      *
+*   11. Create the last sub-polygon side                                                           *
+*   12. Draw the sub-polygon                                                                       *
 *                                                                                                  *
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
