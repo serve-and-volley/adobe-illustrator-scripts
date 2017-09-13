@@ -1,6 +1,6 @@
-// This script draws subPolygon labels for subPolygon polygons
-// User inputs "0" to draw labels inside the subPolygon polygon (for maps without seats)
-// User inputs "1" to draw labels outside the subPolygon polygon (for maps with seats)
+// This script draws labels for the sub-polygons
+// User inputs "0" to draw labels inside the sub-polygon
+// User inputs "1" to draw labels outside the sub-polygon
 
 /* * * * * * * * * * * * * * * * * * * * * * * * *
 *                                                *
