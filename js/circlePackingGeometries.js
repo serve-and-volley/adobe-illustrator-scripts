@@ -125,14 +125,14 @@ function vectorSum(u, v) {
 *                                                                              *
 *   MAIN ROUTINE                                                               *
 *                                                                              *
-*   1. Input circle data from user                                               *
+*   1. Input circle data from user                                             *
 *   3. Collect segment points                                                  *
 *   3. Collect row points                                                      *
 *   4. Set the orientation of the segment points relative to the focus point   *
 *   5. Find the total length of the segments                                   *
-*   6. Extract circle syntax                                                     *
-*   7. Calculate circle positions                                                *
-*   8. Draw circles based on the calculated circle positions                       *
+*   6. Extract circle syntax                                                   *
+*   7. Calculate circle positions                                              *
+*   8. Draw circles based on the calculated circle positions                   *
 *                                                                              *
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
