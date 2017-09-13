@@ -149,19 +149,19 @@ function appendSegmentsArray(array, P0, P1, P2, P3) {
     array.push([P1, P2, length, mid, d, U1, V1, angle1, U2, V2, angle2, angleSum, sideSegment]);      
 }
 
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-*                                                                      *
-*   MAIN ROUTINE                                                       *
-*                                                                      *
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*                                                                        *
+*   MAIN ROUTINE                                                         *
+*                                                                        *
 *   1. Input circle data from user                                       *
-*   2. Initial setup                                                   *
-*   3. Collect subPolygon points                                              *
-*   4. Collect subPolygon segments                                            *
-*   5. Determinethe "front" and "back" segments for each subPolygon polygon   *
-*   6. Remove any extra points                                         *
+*   2. Initial setup                                                     *
+*   3. Collect sub-polygon points                                        *
+*   4. Collect sub-polygon segments                                      *
+*   5. Determine the "front" and "back" segments for each sub-polygon    *
+*   6. Remove any extra points                                           *
 *   7. Draw the segments and embed the circle data                       *
-*                                                                      *
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+*                                                                        *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 // This is DEPRECATED
 // 1. Input circle data from user
